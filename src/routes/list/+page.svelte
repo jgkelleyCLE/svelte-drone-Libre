@@ -3,7 +3,6 @@
 
 let { data } = $props()
 const properties = data.locations
-$inspect(properties)
 
 </script>
 

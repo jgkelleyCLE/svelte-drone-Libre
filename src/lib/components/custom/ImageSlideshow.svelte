@@ -2,8 +2,6 @@
 
     let {images} = $props()
 
-    $inspect(images)
-
     let currentIndex = $state(0);
   let isTransitioning = $state(false);
   

@@ -7,12 +7,10 @@
 
   let { data } = $props()
   const properties = data.locations
-  $inspect(properties)
 
   let selectedProperty = $state(null)
   let open = $state(false)
   let isDarkMode = $state(false)
-  $inspect(selectedProperty)
 
   onMount(() => {
     // Initial check

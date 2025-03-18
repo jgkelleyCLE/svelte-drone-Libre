@@ -1,9 +1,7 @@
 <script>
   import { goto } from '$app/navigation';
 
-
     const { data } = $props()
-    $inspect(data)
 
 </script>
 
