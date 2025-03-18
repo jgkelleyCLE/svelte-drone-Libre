@@ -2,6 +2,7 @@
     import DroneIcon from '@iconify/svelte'
 
     import { page } from '$app/stores';
+  import ThemeToggle from './custom/ThemeToggle.svelte';
     const isActive = (path) => {
         return $page.url.pathname === path;
     };
@@ -16,7 +17,8 @@
     </a>
 
     <div class="flex items-center gap-3 text-white text-xl">
+        <ThemeToggle />
         <a class={`text-xl ${isActive("/maps") ? "text-red-400" : "text-white"}`} href="/maps">Map</a>
-        <a class={`text-xl ${isActive("/list") ? "text-red-400" : "text-white"}`} href="/list">List</a>
+        <a class={`text-xl ${isActive("/list") ? "text-red-400 " : "text-white"}`} href="/list">List</a>
     </div>
 </div>

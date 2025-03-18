@@ -33,10 +33,10 @@
 
 <div class="w-full h-auto mx-auto flex flex-col items-center">
     <!-- SLIDESHOW CONTAINER -->
-    <div class="relative w-full max-w-[1000px]  overflow-hidden">
+    <div class="relative w-full max-w-[1200px]  overflow-hidden">
       <!-- MAIN IMAGE -->
       <div 
-        class="w-full h-full max-w-[1000px] object-contain transition-opacity duration-300 ease-in-out" 
+        class="w-full h-full max-w-[1200px] object-contain transition-opacity duration-300 ease-in-out" 
         
       >
         <img 
@@ -74,7 +74,7 @@
     </div>
     
     <!-- THUMBNAILS -->
-    <div class="w-full max-w-[1000px] py-4 bg-gray-100 overflow-x-auto rounded-b-md">
+    <div class="w-full max-w-[1200px] py-4 bg-gray-100 dark:bg-gray-700 overflow-x-auto rounded-b-md">
       <div class="flex gap-2 px-4 max-w-full">
         {#each images as image, index}
           <button 

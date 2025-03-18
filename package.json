@@ -26,6 +26,7 @@
 		"vite": "^6.0.0"
 	},
 	"dependencies": {
+		"mode-watcher": "^0.5.1",
 		"sanity": "^3.79.0",
 		"svelte-maplibre": "^1.0.0-next.12",
 		"svelte-radix": "^2.0.1"

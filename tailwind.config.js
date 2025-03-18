@@ -36,7 +36,7 @@ const config = {
         pingDark: {
           '0%': {
             transform: 'scale(0.9)',
-            boxShadow: '0 0 0 0 rgba(111, 255, 0, 0.631)',
+            boxShadow: '0 0 0 0 rgba(63, 146, 0, 0.663)',
           },
           '70%': {
             transform: 'scale(1)',

@@ -22,7 +22,7 @@
         <h1 class="text-4xl md:text-6xl font-extrabold text-white/70 mt-24 flex-wrap text-center">ELEVATED PERSPECTIVES</h1>
 
         <div class="absolute bottom-10 flex flex-col md:flex-row justify-center items-center gap-3 w-full">
-            <button class="bg-red-400/60 transition duration-300 p-3 text-white text-xl rounded-md w-11/12 max-w-[400px] font-bold cursor-pointer hover:bg-red-400" onclick={() => goto('/maps')}>
+            <button class="bg-red-400/60  transition duration-300 p-3 text-white text-xl rounded-md w-11/12 max-w-[400px] font-bold cursor-pointer hover:bg-red-400" onclick={() => goto('/maps')}>
                 View Properties on Map
             </button>
             
