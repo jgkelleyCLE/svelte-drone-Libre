@@ -48,7 +48,7 @@
       
       <!-- NAVIGATION -->
       <button 
-        class="absolute left-4 top-1/2 transform -translate-y-1/2 bg-black/50 text-white p-3 rounded-full hover:bg-black/70 transition"
+        class="absolute left-2 top-1/2 transform -translate-y-1/2 bg-black/50 text-white p-2 md:p-3 rounded-full hover:bg-black/70 transition"
         onclick={prevSlide}
         aria-label="Previous image"
       >
@@ -58,7 +58,7 @@
       </button>
       
       <button 
-        class="absolute right-4 top-1/2 transform -translate-y-1/2 bg-black/50 text-white p-3 rounded-full hover:bg-black/70 transition"
+        class="absolute right-2 top-1/2 transform -translate-y-1/2 bg-black/50 text-white p-2 md:p-3  rounded-full hover:bg-black/70 transition"
         onclick={nextSlide}
         aria-label="Next image"
       >
@@ -67,7 +67,7 @@
         </svg>
       </button>
       
-      <!-- Image Counter -->
+      <!-- IMAGE COUNT-->
       <div class="absolute top-4 right-4 bg-black/50 text-white px-3 py-1 rounded-full text-sm">
         {currentIndex + 1} / {images.length}
       </div>
@@ -85,7 +85,7 @@
             <img 
               src={image.url} 
               alt={image.alt || `Thumbnail ${index + 1}`} 
-              class="w-24 h-16 object-cover rounded-md border-2" 
+              class="w-28 h-16 object-cover rounded-md border-2" 
               class:border-red-400={currentIndex === index}
               class:border-transparent={currentIndex !== index}
             />

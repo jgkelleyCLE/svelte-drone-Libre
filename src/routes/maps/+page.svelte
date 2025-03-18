@@ -39,12 +39,12 @@
     />
     <span class="animate-ping absolute bottom-0 inline-flex h-full w-full rounded-full opacity-75 z-0 dark:animate-darkPing"></span>
 
-    <Popup>
+    <Popup class="">
       <div class="flex flex-col md:flex-row items-center">
         <img src={item.images[0].url} alt={item.name} class="w-[250px] md:w-[350px] rounded-md" />
-        <div class="flex flex-col items-center mx-auto md:ml-2">
+        <div class="flex flex-col items-center mx-auto w-full md:ml-2">
           <h1 class="font-bold text-xs md:text-sm">{item.lat.toFixed(6)}, {item.long.toFixed(6)}</h1>
-          <a href={`/property/${item._id}`} class="bg-red-400 p-2 rounded-md text-white font-bold w-full m-2 flex items-center justify-center">View Property Details</a>
+          <a href={`/property/${item._id}`} class="bg-red-400 hover:bg-red-400/80 transition duration-300 p-2 rounded-md text-white font-bold w-full m-2 flex items-center justify-center">View Property Details</a>
 
         </div>
       </div>

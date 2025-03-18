@@ -11,6 +11,6 @@
 
 <div class="mt-20 mx-8">
     <ImageSlideshow images={property.images} />
-    <h1 class="text-xl font-semibold ml-8">{property.lat}, {property.long}</h1>
+    <h1 class="md:text-xl font-semibold">{property.lat}, {property.long}</h1>
 
 </div>
