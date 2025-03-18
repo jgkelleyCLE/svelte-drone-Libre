@@ -1,0 +1,12 @@
+{
+	"/": [],
+	"/list": [
+		"src/routes/list/+page.js"
+	],
+	"/maps": [
+		"src/routes/maps/+page.js"
+	],
+	"/property/[_id]": [
+		"src/routes/property/[_id]/+page.js"
+	]
+}
