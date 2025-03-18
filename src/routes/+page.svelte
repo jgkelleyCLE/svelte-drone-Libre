@@ -3,7 +3,15 @@
 
     const { data } = $props()
 
+    const title = 'DroneLibre'
+
+    const ogImage = "https://firebasestorage.googleapis.com/v0/b/collab-checklist.appspot.com/o/media%2FDroneLibreOpenGraph.webp?alt=media&token=0fddcbf8-e628-4822-8934-d376bac3b3cd"
+
 </script>
+<svelte:head>
+  <title>{title}</title>
+  <meta property="og:image" content={ogImage} />
+</svelte:head>
 
 <div class="h-full supports-[height:100cqh]:h-[100cqh] supports-[height:100svh]:h-[100svh]">
     <video

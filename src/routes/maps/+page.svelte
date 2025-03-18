@@ -48,7 +48,14 @@
     open = true
   }
 
+  const title = `Map | DroneLibre`
+  const ogImage = `https://firebasestorage.googleapis.com/v0/b/collab-checklist.appspot.com/o/media%2FMapOpenGraph.webp?alt=media&token=fff6fd33-d6e4-42cc-84ca-52e8032ea173`
+
 </script>
+<svelte:head>
+  <title>{title}</title>
+  <meta property="og:image" content={ogImage} />
+</svelte:head>
 
 <div class="h-screen w-full">
     <MapLibre 

@@ -4,7 +4,15 @@
 let { data } = $props()
 const properties = data.locations
 
+const title = `Properties | DroneLibre`
+const ogImage = "https://firebasestorage.googleapis.com/v0/b/collab-checklist.appspot.com/o/media%2FDroneLibreOpenGraph.webp?alt=media&token=0fddcbf8-e628-4822-8934-d376bac3b3cd"
+
 </script>
+
+<svelte:head>
+  <title>{title}</title>
+    <meta property="og:image" content={ogImage} />
+</svelte:head>
 
 <div class="mt-20 w-11/12 flex flex-col items-center mx-auto">
     <h1 class="text-xl font-semibold ml-8 dark:text-gray-400 text-gray-600">Properties ({properties.length})</h1>
